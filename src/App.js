@@ -10,8 +10,8 @@ import "./App.scss";
 function App() {
   return (
     <div className="App">
-      <Header />
       <Router>
+        <Header />
         <div className="container">
           <Routes>
             <Route exact path="/" element={<Home />} />
@@ -19,8 +19,8 @@ function App() {
             <Route path="*" element={<PageNotFound />} />
           </Routes>
         </div>
+        <Footer />
       </Router>
-      <Footer />
     </div>
   );
 }
