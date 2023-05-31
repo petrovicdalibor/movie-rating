@@ -20,3 +20,36 @@
   width: 38px;
   height: 38px;
 }
+
+.search-bar {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+
+  form {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+
+    button {
+      padding: 0px 8px;
+      font-size: 20px;
+      cursor: pointer;
+      height: 38px;
+      background: none;
+      border: none;
+      color: rgb(118, 118, 118);
+    }
+  }
+
+  input {
+    background-color: $primary-color;
+    font-size: 18px;
+    width: 100%;
+    padding: 5px 5px 5px 10px;
+    height: 38px;
+    outline: none;
+    color: $font-primary;
+    border-right: none;
+  }
+}
